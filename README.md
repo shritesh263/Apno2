@@ -6,10 +6,14 @@ Designed following modern 2026 UI aesthetics (Linear, Vercel, Stripe dashboards)
 
 ---
 
-## 🌟 Live Demo & Links
+## 🌟 Live Demo & Repository
 
-- **Live Demo (Vercel):** [Deploy to Vercel following steps below]
-- **GitHub Repository:** `https://github.com/shritesh263/Apno2`
+> ### 🚀 **Live Demo:** [https://kpno20.vercel.app/](https://kpno20.vercel.app/)
+> 
+> 📦 **GitHub Repository:** [https://github.com/shritesh263/Apno2](https://github.com/shritesh263/Apno2)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-kpno20.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kpno20.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Apno2-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shritesh263/Apno2)
 
 ---
 
@@ -80,4 +84,4 @@ Because this project runs with CDN dependencies, no build tools or package manag
    ```
 3. Go to [vercel.com](https://vercel.com) ➔ **Add New Project** ➔ Import repository.
 4. Framework Preset: **Other** (Static HTML).
-5. Click **Deploy**. Your site will be live in seconds!
+5. Click **Deploy**. Your site is live at: **[https://kpno20.vercel.app/](https://kpno20.vercel.app/)**!
