@@ -17,12 +17,17 @@ Designed following modern 2026 UI aesthetics (Linear, Vercel, Stripe dashboards)
 
 - **2026 Glassmorphism Aesthetic:** Layered translucent card with `backdrop-filter: blur(24px)`, subtle inner borders, ambient glowing radial mesh background, and micro-interactions.
 - **Thinking in Components:** Structured into a clear component hierarchy (`App` ➔ `ProfileCard`).
-- **Dynamic Props:** Personal information, avatar, role, bio, social links, and skills are passed into the component as pure, read-only props.
-- **Reactive State (`useState`):**
+- **Dynamic Props:** Personal information, avatar, role, bio, social links, projects, badges, and skills are passed into the component as pure, read-only props.
+- **Reactive State (`useState` & `useEffect`):**
   - 🌓 **Dark Mode Toggle:** Seamless theme switching between dark and light modes.
-  - ❤️ **Interactive Like Counter (+10 XP Bonus):** Applaud / Like button with dynamic counter state, toggle status, and micro-animations.
-  - 📋 **Copy to Clipboard:** One-click contact button that copies the email address with real-time visual feedback ("Copied!").
-  - 🏷️ **Interactive Skill Tags:** Click any skill chip to toggle and highlight your core stack.
+  - ❤️ **Interactive Applaud / Like Counter (+10 XP Bonus):** Applaud button with dynamic counter state, toggle status, and **floating emoji particle burst** (`❤️`, `✨`, `🔥`, `👏`).
+  - 🗂️ **Multi-Tab Switcher (`useState`):** Switch between **About**, **Projects** (interactive list), and **Badges** (highlights).
+  - 🕒 **Live Local Clock (`useEffect`):** Real-time ticking Bengaluru time (`Asia/Kolkata`) updating every second with `setInterval` and cleanup.
+  - 🔊 **Web Audio Micro-Chimes:** Synthesized interactive feedback chimes created on the fly with the Web Audio API, complete with a sound/mute toggle button.
+  - 💬 **Quick Contact Modal Drawer:** Interactive glass modal to copy email or send a direct collaboration note.
+  - 🔄 **Cyclical Status Picker:** Click the live status pill to cycle between custom availability statuses.
+  - 🔗 **Share Profile Link:** One-click share button that copies the profile link to your clipboard with an animated floating toast banner.
+  - 🏷️ **Interactive Skill Chips:** Click any skill chip to toggle and inspect active skills.
 
 ---
 
