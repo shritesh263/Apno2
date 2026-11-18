@@ -9,7 +9,7 @@ Designed following modern 2026 UI aesthetics (Linear, Vercel, Stripe dashboards)
 ## 🌟 Live Demo & Links
 
 - **Live Demo (Vercel):** [Deploy to Vercel following steps below]
-- **GitHub Repository:** `https://github.com/shritesh/apnoai-task-2-shritesh`
+- **GitHub Repository:** `https://github.com/shritesh263/Apno2`
 
 ---
 
@@ -63,14 +63,14 @@ Because this project runs with CDN dependencies, no build tools or package manag
 
 ## 📦 Deployment to Vercel
 
-1. Create a new repository on GitHub named `apnoai-task-2-shritesh`.
+1. Create a repository on GitHub named `Apno2`.
 2. Push `index.html`, `profile.jpg`, and `README.md` to GitHub:
    ```bash
    git init
    git add .
    git commit -m "feat: add profile card component with props and state"
    git branch -M main
-   git remote add origin https://github.com/shritesh/apnoai-task-2-shritesh.git
+   git remote add origin https://github.com/shritesh263/Apno2.git
    git push -u origin main
    ```
 3. Go to [vercel.com](https://vercel.com) ➔ **Add New Project** ➔ Import repository.
